@@ -1,4 +1,5 @@
 Summary:	PHAT Audio Toolkit
+Summary(pl):	PHAT Audio Toolkit - zestaw kontrolek dla aplikacji d¼wiêkowych
 Name:		phat
 Version:	0.2.2
 Release:	1
@@ -15,7 +16,7 @@ BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Collection of gtk+ wigets useful for audio applications.
+Collection of gtk+ widgets useful for audio applications.
 
 %description -l pl
 Kolekcja kontrolek gtk+ u¿ytecznych dla aplikacji d¼wiêkowych.
@@ -23,7 +24,7 @@ Kolekcja kontrolek gtk+ u¿ytecznych dla aplikacji d¼wiêkowych.
 %package devel
 Summary:	Header files for PHAT
 Summary(pl):	Pliki nag³ówkowe dla PHAT
-Group:		Development/Libraries
+Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
@@ -35,7 +36,7 @@ Pliki nag³ówkowe i dokumentacja dla PHAT Audio Toolkit.
 %package static
 Summary:	PHAT static library
 Summary(pl):	Biblioteka statyczna PHAT
-Group:		Development/Libraries
+Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description static
@@ -81,10 +82,10 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/phat*
 %attr(755,root,root) %{_libdir}/lib*.so
-%{_gtkdocdir}/*
-%{_includedir}/phat
 %{_libdir}/lib*.la
+%{_includedir}/phat
 %{_pkgconfigdir}/*.pc
+%{_gtkdocdir}/*
 
 %files static
 %defattr(644,root,root,755)
