@@ -14,6 +14,7 @@ BuildRequires:	automake
 BuildRequires:	gtk+2-devel
 BuildRequires:	gtk-doc >= 1.0
 BuildRequires:	libtool
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
