@@ -33,7 +33,7 @@ Header files and development documentation for the PHAT Audio Toolkit.
 Pliki nag³ówkowe i dokumentacja dla PHAT Audio Toolkit.
 
 %package static
-Summary:	PHAT static library.
+Summary:	PHAT static library
 Summary(pl):	Biblioteka statyczna PHAT
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
