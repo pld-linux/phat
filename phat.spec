@@ -16,10 +16,10 @@ BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Collection of gtk+ widgets useful for audio applications.
+Collection of GTK+ widgets useful for audio applications.
 
 %description -l pl
-Kolekcja kontrolek gtk+ u¿ytecznych dla aplikacji d¼wiêkowych.
+Kolekcja kontrolek GTK+ u¿ytecznych dla aplikacji d¼wiêkowych.
 
 %package devel
 Summary:	Header files for PHAT
