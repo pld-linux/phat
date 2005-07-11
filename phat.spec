@@ -1,17 +1,18 @@
 Summary:	PHAT Audio Toolkit
 Summary(pl):	PHAT Audio Toolkit - zestaw kontrolek dla aplikacji d¼wiêkowych
 Name:		phat
-Version:	0.2.3
+Version:	0.3.0
 Release:	1
 License:	GPL v.2
 Group:		X11/Libraries
 Source0:	http://www.gazuga.net/phatfiles/%{name}-%{version}.tar.gz
-# Source0-md5:	e06f136041c257c86a144345c10dd8fd
+# Source0-md5:	89cc93369e049999182c770048eabaa3
 URL:		http://www.gazuga.net/phat.php
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+2-devel
 BuildRequires:	gtk-doc >= 1.0
+BuildRequires:	libgnomecanvas-devel
 BuildRequires:	libtool
 BuildRequires:	perl-base
 BuildRequires:	pkgconfig
