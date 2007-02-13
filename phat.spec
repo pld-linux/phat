@@ -1,5 +1,5 @@
 Summary:	PHAT Audio Toolkit
-Summary(pl.UTF-8):   PHAT Audio Toolkit - zestaw kontrolek dla aplikacji dźwiękowych
+Summary(pl.UTF-8):	PHAT Audio Toolkit - zestaw kontrolek dla aplikacji dźwiękowych
 Name:		phat
 Version:	0.3.1
 Release:	1
@@ -26,7 +26,7 @@ Kolekcja kontrolek GTK+ użytecznych dla aplikacji dźwiękowych.
 
 %package devel
 Summary:	Header files for PHAT
-Summary(pl.UTF-8):   Pliki nagłówkowe dla PHAT
+Summary(pl.UTF-8):	Pliki nagłówkowe dla PHAT
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -38,7 +38,7 @@ Pliki nagłówkowe i dokumentacja dla PHAT Audio Toolkit.
 
 %package static
 Summary:	PHAT static library
-Summary(pl.UTF-8):   Biblioteka statyczna PHAT
+Summary(pl.UTF-8):	Biblioteka statyczna PHAT
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
